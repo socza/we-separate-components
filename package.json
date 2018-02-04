@@ -1,0 +1,20 @@
+{
+  "name": "we-separate-components",
+  "version": "1.0.0",
+  "main": "script.js",
+  "dependencies": {
+    "jshint": "^2.9.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "npm run test:js",
+    "test:js": "jshint *.js",
+    "init-project": "npm run init:gitignore && npm run init:npm-install",
+    "init:gitignore": "curl https://raw.githubusercontent.com/github/gitignore/master/Node.gitignore -o .gitignore",
+    "init:npm-install": "npm install"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
